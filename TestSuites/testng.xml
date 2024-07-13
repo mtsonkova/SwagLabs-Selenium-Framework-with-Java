@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="End to end PageTests">
-    <test verbose="2" preserve-order="true" name="D:/Projects/SwagLabsTestAutomation/testng.xml">
+    <listeners>
+        <listener class-name="base.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Test">
         <classes>
             <class name="PageTests.LoginPageTests"/>
             <class name="PageTests.E2ETests"></class>
