@@ -105,7 +105,7 @@ public class BaseTest {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
 
-        String destPath = "D:\\Projects\\SwagLabsTestAutomation\\Screenshots\\" + testCaseName + ".png";
+        String destPath = "D:\\Projects\\SwagLabsJavaSeleniumFramework\\Screenshots\\" + testCaseName + ".png";
         File file = new File(destPath);
         Files.copy(source.toPath(), file.toPath());
         return file;
