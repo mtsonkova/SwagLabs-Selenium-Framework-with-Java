@@ -1,0 +1,74 @@
+{
+  "validUserName": "standard_user",
+  "validPassword": "secret_sauce",
+  "productsPageUrl": "https://www.saucedemo.com/inventory.html",
+  "lockedOutUser": "locked_out_user",
+  "errMsgLockedOutUser": "Epic sadface: Sorry, this user has been locked out.",
+  "emptyUserName": "",
+  "errMsgEmptyUserName": "Epic sadface: Username is required",
+  "emptyPassword": "",
+  "errMsgEmptyPassword": "Epic sadface: Password is required",
+  "wrongUserName": "wrongUser",
+  "errMsgWrongUserName": "Epic sadface: Username and password do not match any user in this service",
+  "firstName": "Alicia",
+  "lastName": "Keyes",
+  "postalCode": "3456",
+  "Name (A to Z)": [
+    "Sauce Labs Backpack",
+    "Sauce Labs Bike Light",
+    "Sauce Labs Bolt T-Shirt",
+    "Sauce Labs Fleece Jacket",
+    "Sauce Labs Onesie",
+    "Test.allTheThings() T-Shirt (Red)"
+  ],
+  "Name (Z to A)": [
+    "Test.allTheThings() T-Shirt (Red)",
+    "Sauce Labs Onesie",
+    "Sauce Labs Fleece Jacket",
+    "Sauce Labs Bolt T-Shirt",
+    "Sauce Labs Bike Light",
+    "Sauce Labs Backpack"
+  ],
+  "Price (low to high)": [
+    "Sauce Labs Onesie",
+    "Sauce Labs Bike Light",
+    "Sauce Labs Bolt T-Shirt",
+    "Test.allTheThings() T-Shirt (Red)",
+    "Sauce Labs Backpack",
+    "Sauce Labs Fleece Jacket"
+  ],
+  "Price (high to low)": [
+    "Sauce Labs Fleece Jacket",
+    "Sauce Labs Backpack",
+    "Sauce Labs Bolt T-Shirt",
+    "Test.allTheThings() T-Shirt (Red)",
+    "Sauce Labs Bike Light",
+    "Sauce Labs Onesie"
+  ],
+  "purchasedProducts": [
+    {
+      "products": [
+        "Sauce Labs Fleece Jacket"
+      ]
+    },
+    {
+      "products": [
+        "Sauce Labs Bike Light",
+        "Sauce Labs Onesie"
+      ]
+    },
+    {
+      "products": [
+        "Sauce Labs Onesie",
+        "Sauce Labs Fleece Jacket",
+        "Sauce Labs Bike Light"
+      ]
+    }
+  ],
+  "purchasedProductsList": [
+    "Sauce Labs Bolt T-Shirt",
+    "Test.allTheThings() T-Shirt (Red)",
+    "Sauce Labs Bike Light",
+    "Sauce Labs Onesie"
+  ]
+}
